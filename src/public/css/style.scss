@@ -1,0 +1,37 @@
+/*****************
+ *   Variables   *
+ *****************/
+// Colors
+$body-color: #ff006b;
+$font-body: #00f7ff;
+
+//Fonts
+$GOT: '../assets/fonts/GameofThrones.ttf';
+$GoW: '../assets/fonts/CGFLocustResistance.ttf';
+
+
+/*****************
+ *     Fonts     *
+ *****************/
+ @font-face {
+  font-family: 'GOT';
+  src: url($GOT) format('truetype');
+}
+
+@font-face {
+ font-family: 'GoW';
+ src: url($GoW) format('truetype');
+}
+
+body{
+  background-color: $body-color;
+  color: $font-body;
+}
+
+h1{
+  font-family: 'GoW';
+}
+
+h2{
+  font-family: 'GOT';
+}
